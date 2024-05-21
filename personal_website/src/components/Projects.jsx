@@ -12,10 +12,6 @@ import project1_image1 from '../assets/Bartenders Best Friend Drink Details-DsaG
 import project1_image2 from '../assets/Bartenders Best Friend Drink List-CNuFx3re.png'
 import project1_image3 from '../assets/Bartenders Best Friend Landing Page-B9z48kNy.png'
 
-import project2_image1 from '../assets/Ultimate Anime API Anime List-CPHl2rDB.png'
-import project2_image2 from '../assets/Ultimate Anime API Character list-CT2VYk6x.png'
-import project2_image3 from '../assets/Ultimate Anime API landing Page-WcJW4GsK.png'
-
 import project3_image1 from '../assets/Gaming Elite Game list-DufwXnEH.png'
 import project3_image2 from '../assets/Gaming Elite landing page-C5iVBS-q.png'
 import project3_image3 from '../assets/Gaming elite Retro page-vIpw-eNf.png'
@@ -136,59 +132,16 @@ export default function Projects() {
                 <img src={project1_image3} alt='Drink Details'/>
               </SwiperSlide>
             </div>
-            <div className="slider-controler">
-              <div className="swiper-button-prev slider-arrow">
-                <ion-icon name="arrow-back-outline"></ion-icon>
-              </div>
-              <div className="swiper-button-next slider-arrow">
-                <ion-icon name="arrow-forward-outline"></ion-icon>
-              </div>
-              <div className="swiper-pagination"></div>
-            </div>
           </Swiper>
-        </div>
-        <hr className='project-divider' /> 
-        </div>
-      </div>
-{ /* Project 2 */ }
-      <div className='project2-container'>
-        <div className='project-title'>
-          <h1> Ultimate Anime API </h1>
-        </div>
-        <div className='project-description-container'>
-        <div className='project2-description'>
-          <p>"Ultimate Anime API" is a dynamic website showcasing the seamless integration of JavaScript components on the front-end with a robust Express, MongoDB, and Node.js backend. I've implemented RESTful API fetch calls for CRUD operations, rigorously tested backend routes using Postman, and ensured data integrity with Mongoose-defined schemas for MongoDB collections. This project represents a harmonious blend of front-end and back-end technologies, delivering a seamless user experience. <a href='https://github.com/larsonscott89/ultimate_anime_API' target='blank' className='git-link'> GitHub </a></p>
-        </div>
-        <div className='swiper-container'>
-        <Swiper {...swiperSettings}>
-            <SwiperSlide>
-              <img src={project2_image1} alt='Landing Page'/>
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={project2_image2} alt='Drink List'/>
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={project2_image3} alt='Drink Details'/>
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={project2_image1} alt='Landing Page'/>
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={project2_image2} alt='Drink List'/>
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={project2_image3} alt='Drink Details'/>
-            </SwiperSlide>
-            <div className="slider-controler">
-              <div className="swiper-button-prev slider-arrow">
-                <ion-icon name="arrow-back-outline"></ion-icon>
-              </div>
-              <div className="swiper-button-next slider-arrow">
-                <ion-icon name="arrow-forward-outline"></ion-icon>
-              </div>
-              <div className="swiper-pagination"></div>
+          <div className="slider-controler">
+            <div className="swiper-button-prev slider-arrow">
+              <ion-icon name="arrow-back-outline"></ion-icon>
             </div>
-          </Swiper>
+            <div className="swiper-button-next slider-arrow">
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </div>
+            <div className="swiper-pagination"></div>
+          </div>
         </div>
         <hr className='project-divider' /> 
         </div>
@@ -224,16 +177,16 @@ export default function Projects() {
             <SwiperSlide>
               <img src={project3_image3} alt='Drink Details'/>
             </SwiperSlide>
-            <div className="slider-controler">
-              <div className="swiper-button-prev slider-arrow">
-                <ion-icon name="arrow-back-outline"></ion-icon>
-              </div>
-              <div className="swiper-button-next slider-arrow">
-                <ion-icon name="arrow-forward-outline"></ion-icon>
-              </div>
-              <div className="swiper-pagination"></div>
+            </Swiper>
+          <div className="slider-controler">
+            <div className="swiper-button-prev slider-arrow">
+              <ion-icon name="arrow-back-outline"></ion-icon>
             </div>
-          </Swiper>
+            <div className="swiper-button-next slider-arrow">
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </div>
+            <div className="swiper-pagination"></div>
+          </div>
         </div>
         <hr className='project-divider' /> 
         </div>
@@ -276,16 +229,16 @@ export default function Projects() {
             <SwiperSlide>
               <img src={project4_image3} alt='Drink Details'/>
             </SwiperSlide>
-            <div className="slider-controler">
-              <div className="swiper-button-prev slider-arrow">
-                <ion-icon name="arrow-back-outline"></ion-icon>
-              </div>
-              <div className="swiper-button-next slider-arrow">
-                <ion-icon name="arrow-forward-outline"></ion-icon>
-              </div>
-              <div className="swiper-pagination"></div>
+            </Swiper>
+          <div className="slider-controler">
+            <div className="swiper-button-prev slider-arrow">
+              <ion-icon name="arrow-back-outline"></ion-icon>
             </div>
-          </Swiper>
+            <div className="swiper-button-next slider-arrow">
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </div>
+            <div className="swiper-pagination"></div>
+          </div>
         </div>
         <hr className='project-divider' /> 
         </div>
