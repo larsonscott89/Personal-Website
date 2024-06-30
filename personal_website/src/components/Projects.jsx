@@ -155,7 +155,7 @@ export default function Projects() {
         <div className='project3-description'>
           <p>Introducing Gaming Elite—an eCommerce platform for gaming enthusiasts, crafted collaboratively under my leadership. I directed a team of three developers in harnessing the power of the MERN stack to deliver a seamless user experience.</p>
           <p>My contributions included implementing a conditional rendering system for the retro page and orchestrating API calls from our AtlasDB backend. Leveraging MongoDB, we efficiently managed product catalogsand user profiles.</p>
-          <p>Through meticulous testing and debugging, I ensured Gaming Elite maintains high-quality standards and optimal performance. This project embodies our commitment to excellence in technology and commerce, tailored for the gaming community. <a href='https://github.com/larsonscott89/Gaming-Elite' target='blank' className='git-link'> GitHub </a></p>
+          <p>Through meticulous testing and debugging, I ensured Gaming Elite maintains high-quality standards and optimal performance. This project embodies our commitment to excellence in technology and commerce, tailored for the gaming community. <a href='https://github.com/larsonscott89/Gaming-Elite' target='blank' className='git-link'> GitHub </a> | <a href="https://gaming-elite-1eej.onrender.com/" target='blank' className='git-link'> Gaming Elite Home Page</a></p>
         </div>
         <div className='swiper-container'>
         <Swiper {...swiperSettings}>
